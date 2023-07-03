@@ -1,0 +1,91 @@
+import "../../style/globais.css";
+import "./index.css";
+import PokeAPI from "../../images/pokeapi.png";
+import Huddle from "../../images/huddle.png";
+import Conselhos from "../../images/conselhos.png";
+import Git from "../../images/git.png";
+
+export const Projects = () => {
+  return (
+    <section className="projetos section" id="projetos">
+      <div className="container">
+        <div className="row">
+          <div className="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div className="container-projetos">
+          <div className="projeto">
+            <a
+              href="https://project-poke-api-gules.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={PokeAPI} alt="Projeto PokéAPI"/>
+              <h3>PokéAPI</h3>
+              <div className="informacoes-projeto">
+                <p>
+                  Este projeto foi criado como um SPA (Single Page Application)
+                  utilizando o React e a biblioteca React Router Dom para fazer
+                  o direcionamento das páginas. O tema de cores é distribuído
+                  por toda a aplicação através do Context API e, além do mais,
+                  toda a estilização foi feita utilizando a biblioteca Styled
+                  Component.
+                </p>
+                <p>🔗 Ver no Vercel</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a href="https://ederhscc.github.io/desafio-huddle-landing-page/" target="_blank" rel="noreferrer">
+              <img
+                src={Huddle}
+                alt="Huddle Landing Page"
+              />
+              <h3>Huddle Landing Page</h3>
+              <div className="informacoes-projeto">
+                <p>
+                  Este projeto foi feito com HTML e CSS. Contudo, aprendi: <br /> - Posicionar os elementos na tela;<br /> - Utilizar
+                  fontes externas <br /> - Trabalhar com imagens em backgrounds; <br /> -
+                  Construir layout com Grid; <br /> - Trabalahar com as propriedades do
+                  Display Flex.
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a href="https://ederhscc.github.io/advice-generator-app-main/" target="_blank" rel="noreferrer">
+              <img
+                src={Conselhos}
+                alt="Gerador de Conselhos"
+              />
+              <h3>Gerador de Conselhos</h3>
+              <div className="informacoes-projeto">
+                <p>Este projeto é uma solução para o 'Advice generator app challenge on Frontend Mentor'. Ele foi desenvolvido com HTML, CSS e Javascript. Para gerar os conselhos o app consome uma API de conselhos através do Javascript.</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a href="https://ederhscc.github.io/project-fetch-github-api/" target="_blank" rel="noreferrer">
+              <img
+                src={Git}
+                alt="Fetch GitHub API com JS"
+              />
+              <h3>Fetch GitHub API com JS</h3>
+              <div className="informacoes-projeto">
+                <p>Este projeto foi feito em HTML, CSS e JavaScript. Ele recebe como parâmetro um nome de usuário do GitHub e retorna os seus dados de repositórios e seus últimos eventos.</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
