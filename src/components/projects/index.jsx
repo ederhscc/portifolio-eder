@@ -4,6 +4,7 @@ import PokeAPI from "../../images/pokeapi.png";
 import Huddle from "../../images/huddle.png";
 import Conselhos from "../../images/conselhos.png";
 import Git from "../../images/git.png";
+import MiniBlog from "../../images/miniblog.png";
 
 export const Projects = () => {
   return (
@@ -22,7 +23,7 @@ export const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={PokeAPI} alt="Projeto PokéAPI"/>
+              <img src={PokeAPI} alt="Projeto PokéAPI" />
               <h3>PokéAPI</h3>
               <div className="informacoes-projeto">
                 <p>
@@ -39,18 +40,37 @@ export const Projects = () => {
           </div>
 
           <div className="projeto">
-            <a href="https://ederhscc.github.io/desafio-huddle-landing-page/" target="_blank" rel="noreferrer">
-              <img
-                src={Huddle}
-                alt="Huddle Landing Page"
-              />
+            <a
+              href="https://miniblog-weld.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={MiniBlog} alt="Projeto MiniBlog" />
+              <h3>MiniBlog</h3>
+              <div className="informacoes-projeto">
+                <p>
+                Este projeto consiste em um blog feito com React no front-end e Firebase no back-end.
+                </p>
+                <p>🔗 Ver no Vercel</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a
+              href="https://ederhscc.github.io/desafio-huddle-landing-page/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Huddle} alt="Huddle Landing Page" />
               <h3>Huddle Landing Page</h3>
               <div className="informacoes-projeto">
                 <p>
-                  Este projeto foi feito com HTML e CSS. Contudo, aprendi: <br /> - Posicionar os elementos na tela;<br /> - Utilizar
-                  fontes externas <br /> - Trabalhar com imagens em backgrounds; <br /> -
-                  Construir layout com Grid; <br /> - Trabalahar com as propriedades do
-                  Display Flex.
+                  Este projeto foi feito com HTML e CSS. Contudo, aprendi:{" "}
+                  <br /> - Posicionar os elementos na tela;
+                  <br /> - Utilizar fontes externas <br /> - Trabalhar com
+                  imagens em backgrounds; <br /> - Construir layout com Grid;{" "}
+                  <br /> - Trabalahar com as propriedades do Display Flex.
                 </p>
                 <p>🔗 Ver no GitHub Pages</p>
               </div>
@@ -58,28 +78,39 @@ export const Projects = () => {
           </div>
 
           <div className="projeto">
-            <a href="https://ederhscc.github.io/advice-generator-app-main/" target="_blank" rel="noreferrer">
-              <img
-                src={Conselhos}
-                alt="Gerador de Conselhos"
-              />
+            <a
+              href="https://ederhscc.github.io/advice-generator-app-main/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Conselhos} alt="Gerador de Conselhos" />
               <h3>Gerador de Conselhos</h3>
               <div className="informacoes-projeto">
-                <p>Este projeto é uma solução para o 'Advice generator app challenge on Frontend Mentor'. Ele foi desenvolvido com HTML, CSS e Javascript. Para gerar os conselhos o app consome uma API de conselhos através do Javascript.</p>
+                <p>
+                  Este projeto é uma solução para o 'Advice generator app
+                  challenge on Frontend Mentor'. Ele foi desenvolvido com HTML,
+                  CSS e Javascript. Para gerar os conselhos o app consome uma
+                  API de conselhos através do Javascript.
+                </p>
                 <p>🔗 Ver no GitHub Pages</p>
               </div>
             </a>
           </div>
 
           <div className="projeto">
-            <a href="https://ederhscc.github.io/project-fetch-github-api/" target="_blank" rel="noreferrer">
-              <img
-                src={Git}
-                alt="Fetch GitHub API com JS"
-              />
+            <a
+              href="https://ederhscc.github.io/project-fetch-github-api/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Git} alt="Fetch GitHub API com JS" />
               <h3>Fetch GitHub API com JS</h3>
               <div className="informacoes-projeto">
-                <p>Este projeto foi feito em HTML, CSS e JavaScript. Ele recebe como parâmetro um nome de usuário do GitHub e retorna os seus dados de repositórios e seus últimos eventos.</p>
+                <p>
+                  Este projeto foi feito em HTML, CSS e JavaScript. Ele recebe
+                  como parâmetro um nome de usuário do GitHub e retorna os seus
+                  dados de repositórios e seus últimos eventos.
+                </p>
                 <p>🔗 Ver no GitHub Pages</p>
               </div>
             </a>
