@@ -58,6 +58,23 @@ export const Projects = () => {
 
           <div className="projeto">
             <a
+              href="https://ederhscc.github.io/todo_react/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Conselhos} alt="React + TS Todo" />
+              <h3>React + TS Todo</h3>
+              <div className="informacoes-projeto">
+                <p>
+                  Este projeto é um gerenciador de tarefas utilizando o TypeScrip e o React.
+                </p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a
               href="https://ederhscc.github.io/desafio-huddle-landing-page/"
               target="_blank"
               rel="noreferrer"
