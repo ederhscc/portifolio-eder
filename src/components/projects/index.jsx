@@ -5,6 +5,7 @@ import Huddle from "../../images/huddle.png";
 import Conselhos from "../../images/conselhos.png";
 import Git from "../../images/git.png";
 import MiniBlog from "../../images/miniblog.png";
+import Todo from "../../images/todo.png";
 
 export const Projects = () => {
   return (
@@ -62,7 +63,7 @@ export const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Conselhos} alt="React + TS Todo" />
+              <img src={Todo} alt="React + TS Todo" />
               <h3>React + TS Todo</h3>
               <div className="informacoes-projeto">
                 <p>
