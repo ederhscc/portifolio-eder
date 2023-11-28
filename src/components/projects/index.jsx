@@ -6,6 +6,7 @@ import Conselhos from "../../images/conselhos.png";
 import Git from "../../images/git.png";
 import MiniBlog from "../../images/miniblog.png";
 import Todo from "../../images/todo.png";
+import MoviesLib from "../../images/movieslib.png";
 
 export const Projects = () => {
   return (
@@ -51,6 +52,23 @@ export const Projects = () => {
               <div className="informacoes-projeto">
                 <p>
                 Este projeto consiste em um blog feito com React no front-end e Firebase no back-end.
+                </p>
+                <p>🔗 Ver no Vercel</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="projeto">
+            <a
+              href="https://react-movies-lib-eight.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={MoviesLib} alt="Projeto MoviesLib" />
+              <h3>MoviesLib</h3>
+              <div className="informacoes-projeto">
+                <p>
+                Este projeto é um frontend em React que se conecta a API da TMDB para a exibição dos filmes mais bem avaliados.
                 </p>
                 <p>🔗 Ver no Vercel</p>
               </div>
